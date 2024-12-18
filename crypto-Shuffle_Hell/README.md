@@ -6,8 +6,8 @@
 `THJCC{Xor_FoR_m4nY71M3}`
 
 ## Observation：
-- The $FLAG$ is XORed with many random bytes and then output, which is performed 1337 times.
-- After XORing the output line-by-line, we get the $FLAG$ XORed itself 1337 times, and those random bytes XORed exactly twice, which results in the $FLAG$.
+- The  $FLAG$  is XORed with many random bytes and then output, which is performed 1337 times.
+- After XORing the output line-by-line, we get the  $FLAG$  XORed itself 1337 times, and those random bytes XORed exactly twice, which results in the  $FLAG$ .
 
 ## Step：
 1. XOR all the output.

@@ -6,7 +6,7 @@
 `THJCC{wait_what?}`
 
 ## Observation：
-- $n1$ and $n2$ are the same. Use **Common modules attack**.
+-  $n1$  and  $n2$  are the same. Use **Common modules attack**.
 
 ## Step：
 1. Reference : https://github.com/jvdsn/crypto-attacks/blob/master/attacks/rsa/common_modulus.py
