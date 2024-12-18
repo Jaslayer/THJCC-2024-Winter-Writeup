@@ -6,12 +6,13 @@
 `THJCC{UnD3R7@keR_e376a}`
 
 ## Observation：
-- Ciphertext $r$ is an unknown linear combination of $`(NAME,SIGN)`$ modulo $`M`$, and the goal is to find $`NAME`$ and $`SIGN_i`$ using the $`LLL`$ algorithm.  
+- Ciphertext  $r$  is an unknown linear combination of $(NAME,SIGN)$ modulo  $M$ , and the goal is to find  $NAME$  and  $SIGN_i$  using the  $LLL$  algorithm.  
 
-## Construct $LLL$ Matrix：
+## Construct  $LLL$  Matrix：
 
-- For an arbitrary integer $q$, where $seed_i$ is denoted as $s_i$​ and $SIGN_i$​ is denoted as $S_i$​ , construct $`u \times B \equiv v \mod M`$ as   
-$$\begin{pmatix}
+- For an arbitrary integer  $q$  , where  $seed_i$  is denoted as  $s_i$​  and  $SIGN_i$​  is denoted as  $S_i$​  , construct  $u \times B \equiv v \mod M$  as   
+```math
+\begin{pmatix}
 q, & -S_0, & -S_1, & -S_2, & -S_3, & -S_4, & -S_5, & 1
 \end{pmatrix}
 \begin{bmatrix} 
@@ -23,7 +24,9 @@ s_3 & 0 & 0 & 0 & -1 & 0 & 0 & 0 \cr
 s_4 & 0 & 0 & 0 & 0 & -1 & 0 & 0 \cr
 s_5 & 0 & 0 & 0 & 0 & 0 & -1 & 0 \cr
 r & 0 & 0 & 0 & 0 & 0 & 0 & K
-\end{bmatrix}$$  
+\end{bmatrix}
+```  
+
 ```math
 \equiv \begin{pmatrix}
 s_6\cdot NAME, & S_0, & S_1, & S_2, & S_3, & S_4, & S_5, & K
