@@ -10,9 +10,9 @@
 
 ## Construct  $LLL$  Matrix：
 
-- For an arbitrary integer  $q$  , where  $seed_i$  is denoted as  $s_i$​  and  $SIGN_i$​  is denoted as  $S_i$​  , construct  $u \times B \equiv v \mod M$  as   
+- For an arbitrary integer  $q$  , where  $seed[i]$  is denoted as  $s[i]$​  and  $SIGN[i]$​  is denoted as  $S[i]$​  , construct  $u \times B \equiv v \mod M$  as  
 ```math
-\begin{pmatix}
+\begin{pmatrix}
 q, & -S_0, & -S_1, & -S_2, & -S_3, & -S_4, & -S_5, & 1
 \end{pmatrix}
 \begin{bmatrix} 
@@ -25,7 +25,7 @@ s_4 & 0 & 0 & 0 & 0 & -1 & 0 & 0 \cr
 s_5 & 0 & 0 & 0 & 0 & 0 & -1 & 0 \cr
 r & 0 & 0 & 0 & 0 & 0 & 0 & K
 \end{bmatrix}
-```  
+```
 
 ```math
 \equiv \begin{pmatrix}
