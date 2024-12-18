@@ -32,11 +32,11 @@ r & 0 & 0 & 0 & 0 & 0 & 0 & K
 s_6\cdot NAME, & S_0, & S_1, & S_2, & S_3, & S_4, & S_5, & K
 \end{pmatrix} \mod M
 ```
-- Let  $L$  be the matrix obtained after applying the  $LLL$  algorithm to  $B$ . By the definition,  $L$  contains a small row vector  $v$  if  $v$  is sufficiently small. The constraints is  $v[0:-1]<K<\sqrt N$ .
-	- First, to make  $K<\sqrt N$  , just pick  $K=\lfloor \sqrt N \rfloor$ .
+- Let  $L$  be the matrix obtained after applying the  $LLL$  algorithm to  $B$ . By the definition,  $L$  contains a small row vector  $v$  if  $v$  is sufficiently small. The constraints is  $v[0:-1]<K< sqrt(N)$ .
+	- First, to make  $K<  sqrt(N)$  , just pick  $K=\lfloor  sqrt(N) \rfloor$ .
 	- To ensure  $v[0:-1]<K$ , we know that  $NAME$  and  $S[i]$​ are part of the FLAG, so they are expected to be small. However, since  $s[6]\cdot NAME$  is not small, we need to cancel out  $s[6]$  by multiplying  $s[6]^{-1}$  ( mod  $M$  ) to the first column of  $B$ . Note that the  $M$  in matrix  $B$ is not multiplied by  $s[6]^{-1}$.  
 
-- Check that the constraints  $u \times B \equiv v \mod M$  and  $v[0:-1]<K<\sqrt N$  are still satisfied. That is,  
+- Check that the constraints  $u \times B \equiv v \mod M$  and  $v[0:-1]<K< sqrt(N)$  are still satisfied. That is,  
 ```math
 \begin{pmatrix}
 q, & -S_0, & -S_1, & -S_2, & -S_3, & -S_4, & -S_5, & 1
