@@ -1,7 +1,7 @@
 # crypto - Double Secure - Writeup
 
 ---  
-
+![pic](pic/double_secure.png)
 ## FLAG：
 `THJCC{wait_what?}`
 

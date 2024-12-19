@@ -1,7 +1,7 @@
 # crypto - 8six - Writeup
 
 ---  
-
+![pic](pic/8six.png)
 ## FLAG：
 `THJCC{UnD3R7@keR_e376a}`
 

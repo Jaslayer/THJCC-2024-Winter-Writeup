@@ -1,7 +1,7 @@
 # crypto - Shuffle Hell - Writeup
 
 ---  
-
+![pic](pic/shuffle_hell.png)
 ## FLAG：
 `THJCC{Xor_FoR_m4nY71M3}`
 

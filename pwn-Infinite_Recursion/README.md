@@ -1,7 +1,7 @@
 # pwn - Infinite Recursion - Writeup
 
 ---  
-
+![pic](pic/infinite_recursion.png)
 ## FLAG：
 `THJCC{E$C4Pe_FRoM_TH3_InF!NI7E_r3CURS!on}`
 

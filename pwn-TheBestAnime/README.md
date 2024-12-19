@@ -1,7 +1,7 @@
 # pwn - The Best Anime - Writeup
 
 ---  
-
+![pic](pic/the_best_anime.png)
 ## FLAG：
 `THJCC{d4rl1n9_1N_7hE_FR4nXx_15_7he-Be57}`
 
